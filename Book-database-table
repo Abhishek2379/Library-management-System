@@ -1,0 +1,15 @@
+
+Oracle :
+
+sql> create table car(bookid int,title varchar2(20),price float,grade varchar2(20));
+
+
+sql> insert into book values(100,'MyBookJava',350,'A');
+
+Mysql
+
+
+mysql>create table car5(carId  int(20),title  varchar(30),price float(11,2),grade varchar(5),model varchar(30),fuel varchar(30),mileage varchar(30),path varchar(255));
+mysql>insert into car2 values(1200,”BMW-720D”,2275000.00,”A”);
+
+create table emp4(empId int(20),fname varchar(30),sname varchar(30),phone int(20),sal int(20),designation varchar(30),grade varchar(30);

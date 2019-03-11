@@ -1,0 +1,2 @@
+create table reg(username varchar(20),password varchar(20),age varchar(20),contact varchar(20),address varchar(20),mailid varchar(20),qualification varchar(20));
+

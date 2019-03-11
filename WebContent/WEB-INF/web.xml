@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+    <servlet-name>BookServlet</servlet-name>
+    <servlet-class>com.ram.controller.BookController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BookServlet</servlet-name>
+    <url-pattern>/bookAction</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>BoServlet</servlet-name>
+    <servlet-class>com.ram.controller.DeleteBookController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BoServlet</servlet-name>
+    <url-pattern>/deleteAction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>BooServlet</servlet-name>
+    <servlet-class>com.ram.controller.ShowBookIdController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BooServlet</servlet-name>
+    <url-pattern>/ShowAction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>BooksServlet1</servlet-name>
+    <servlet-class>com.ram.controller.ViewAllController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BooksServlet1</servlet-name>
+    <url-pattern>/viewAction</url-pattern>
+  </servlet-mapping>
+  
+  
+    <servlet>
+    <servlet-name>BooServlet1</servlet-name>
+    <servlet-class>com.ram.controller.UserShowBookIdController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BooServlet1</servlet-name>
+    <url-pattern>/UserShowAction</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>BooksServlet</servlet-name>
+    <servlet-class>com.ram.controller.UserViewAllController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BooksServlet</servlet-name>
+    <url-pattern>/UserviewAction</url-pattern>
+  </servlet-mapping>
+  
+  
+    <servlet>
+    <servlet-name>MyServlet</servlet-name>
+    <servlet-class>RegServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MyServlet</servlet-name>
+    <url-pattern>/RegServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
